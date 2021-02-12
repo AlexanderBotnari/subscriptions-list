@@ -23,8 +23,9 @@ public class SubscriberController {
 		
 	}
 	
-	@GetMapping("/subscribers/add/{email}/{name}")
-	public String subscriberAdd(@PathVariable String email, @PathVariable String name) {
+	@PostMapping("/subscribers/add")
+	public String subscriberAdd(@RequestParam(required=true) String email, 
+			            @RequestParam(required=true) String name) {
 		 sr.save(new Subscriber(name,email));
 		return "Subscriber added!";
 	}
