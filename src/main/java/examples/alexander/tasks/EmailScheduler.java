@@ -27,7 +27,7 @@ public class EmailScheduler {
 		System.err.println("Preparing to send email!");
 
 		try {
-			Map<Subscriber, Message> tuple = messageRepo.getNextUnsendMessage();
+		    Map<Subscriber, Message> tuple = messageRepo.getNextUnsendMessage();
 		
 		    SimpleMailMessage message = new SimpleMailMessage();
 		
@@ -40,9 +40,10 @@ public class EmailScheduler {
 		 
 		    System.out.println("Message to "+iterateSubscriberEmail(tuple)+" >>> "+iterateMessage(tuple));
 		    message.setText(iterateMessage(tuple));
-	        javaMailSender.send(message);
+	            
+		    javaMailSender.send(message);
 	        
-	        messageRepo.markSentMessage(iterateSubscriberId(tuple));
+	            messageRepo.markSentMessage(iterateSubscriberId(tuple));
 	        
 		} catch (Exception e) {
 			
