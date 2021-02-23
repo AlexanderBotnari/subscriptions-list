@@ -1,0 +1,12 @@
+entities/Subscriber.class
+controllers/AdminController.class
+entities/Message.class
+examples/alexander/tasks/EmailScheduler.class
+repositories/MessageRepo.class
+examples/alexander/ServletInitializer.class
+examples/alexander/SubscriptionListApplication.class
+mappers/SubscriberRowMapper.class
+mappers/MessageRowMapper.class
+repositories/SubscriberRepo.class
+controllers/SubscriberController.class
+controllers/MessageController.class

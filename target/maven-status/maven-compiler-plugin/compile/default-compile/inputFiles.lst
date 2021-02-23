@@ -1,0 +1,12 @@
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/mappers/SubscriberRowMapper.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/repositories/MessageRepo.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/entities/Subscriber.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/repositories/SubscriberRepo.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/controllers/AdminController.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/mappers/MessageRowMapper.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/controllers/MessageController.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/examples/alexander/SubscriptionListApplication.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/examples/alexander/ServletInitializer.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/entities/Message.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/controllers/SubscriberController.java
+/Users/alexander/eclipse-workspace/subscription-list/src/main/java/examples/alexander/tasks/EmailScheduler.java
