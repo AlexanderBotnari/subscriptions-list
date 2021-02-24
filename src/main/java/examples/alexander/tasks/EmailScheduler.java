@@ -22,7 +22,7 @@ public class EmailScheduler {
 	@Autowired
 	JavaMailSender javaMailSender;
 
-	@Scheduled(fixedRate=1000, initialDelay=0000)
+	@Scheduled(fixedRate=60*1000, initialDelay=10000)
 	public void sendEmail(){
 		System.err.println("Preparing to send email!");
 
